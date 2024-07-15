@@ -6,4 +6,37 @@
 
 ## Home Page 
 
+*  _we have  achive this by using `embedded javascript, node.js nad express.js` 
+
+```
+    app.get('/home', (req, res)=>{
+        res.render("home.ejs")
+    });
+
+```
+
 ![alt text](image.png)
+
+
+## Login page
+
+```
+    app.get('/login', (req, res)=>{
+        res.render("login.ejs")
+    });
+
+
+```
+
+![alt text](image-1.png)
+
+## Register Page
+
+```
+    app.get('/register', (req, res)=>{
+        res.render("register.ejs")
+    });
+
+```
+
+![alt text](image-2.png)
