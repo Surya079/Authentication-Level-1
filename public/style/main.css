@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+.container,.container-login{
+    text-align: center;
+    position: relative;
+}
+.title{
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: rgb(58, 58, 58);
+    margin-bottom: 0;
+}
+.secret>p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+.login,.register{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    transition: .5s;
+    /* border-radius: 10px; */
+}
+.login{
+    padding-inline: 16px;
+
+}
+.login:hover,.register:hover{
+    color: white;
+    background-color: black;
+    
+}
+.uname, .pwd{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+}
+.back{
+    padding: 5px;
+    padding-inline: 18px;
+    color: white;
+    background-color: green;
+    border: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 20px;
+}
+form{
+    width: fit-content;
+}
+.loginform{
+    display: flex;
+    justify-content: center;
+}
+.login-btn{
+    float: left;
+    width: 80px;
+    height: 30px;
+}
