@@ -4,3 +4,6 @@
 
 * _First we need to set up our server by using `node.js and express.js`._
 
+## Home Page 
+
+![alt text](image.png)
