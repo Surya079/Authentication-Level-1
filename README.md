@@ -15,7 +15,7 @@
 
 ```
 
-![alt text](/image/image.png)
+![alt text](/public/image/image.png)
 
 
 ## Login page
