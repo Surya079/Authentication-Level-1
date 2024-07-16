@@ -39,7 +39,7 @@ app.post('/login', async (req, res)=>{
     try {
         const result = await db.query("select * from users where username = $1 ",[username]);
         try {
-            if (result.rows[0].username == username) {
+            if (result.rows.length > 0) {
                 if (result.rows[0].password == password) {
                     res.redirect("secret.ejs");
                 } else {
