@@ -56,7 +56,7 @@
 *  _if user put username and password was correct, successfully login_ 
 ![alt text](image-3.png)
 
-* _if login successfully, thats redirect secret page in our website_
+* _if login successfully, thats redirect secret `secret.ejs` page in our website_
 
 ![alt text](image-4.png)
 
@@ -77,4 +77,4 @@
 
 * _If user put new username or password, then they successfully register and thats redirect `secret.ejs`._
 
-![alt text](image-3.png)
+![alt text](image-4.png)
