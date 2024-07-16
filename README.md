@@ -28,7 +28,7 @@
 
 ```
 
-![alt text](image-1.png)
+![alt text](/public/image/image-1.png)
 
 ## Register Page
 
@@ -39,7 +39,7 @@
 
 ```
 
-![alt text](image-2.png)
+![alt text](/public/image/image-2.png)
 
 ## Database
 
@@ -54,27 +54,27 @@
 ## login 
 
 *  _if user put username and password was correct, successfully login_ 
-![alt text](image-3.png)
+![alt text](/public/image/image-3.png)
 
 * _if login successfully, thats redirect secret `secret.ejs` page in our website_
 
-![alt text](image-4.png)
+![alt text](/public/image/image-4.png)
 
 ## login with new user or password wrong
 
 * _Incase of wrong username or password user getting given error message..._ 
 
-![alt text](image-5.png)
+![alt text](/public/image/image-5.png)
 
-![alt text](image-6.png)
+![alt text](/public/image/image-6.png)
 
 
 ## register 
 
 * _The user given the input was found in database it's showing error given bellow.._
 
-![alt text](image-7.png)
+![alt text](/public/image/image-7.png)
 
 * _If user put new username or password, then they successfully register and thats redirect `secret.ejs`._
 
-![alt text](image-4.png)
+![alt text](/public/image/image-4.png)
