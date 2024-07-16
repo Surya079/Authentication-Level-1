@@ -8,6 +8,7 @@
         </div>
         <div class="loginform">
             <form action="/login" method="post" >
+                <p><%= locals.error ? error : "" %></p>
                 <input type="email" placeholder="Enter Your Email" class="uname" name="username" required> <br>
                 <input type="password" placeholder="Enter Your Password" class="pwd" name="password" required > <br> 
                 <div >
@@ -15,6 +16,6 @@
                 </div>
             </form>
         </div>
-        <button class="Back" type="button"><a href="/home" style="color: white;">Back</a></button>
+        <button class="Back" type="button"><a href="/" style="color: white;">Back</a></button>
     </div>
 </main>

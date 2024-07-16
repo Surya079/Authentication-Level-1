@@ -40,3 +40,16 @@
 ```
 
 ![alt text](image-2.png)
+
+## Database
+
+* _Creating database for store username and password_
+```
+    create table users(
+        id serial primary key,
+        username varchar(45) not null unique,
+        password varchar(100)
+    )
+```
+
+
